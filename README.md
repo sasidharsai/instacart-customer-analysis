@@ -50,7 +50,3 @@ This project analyzes customer purchasing behavior using the Instacart dataset. 
 
 ---
 
-## 🚀 Author
-
-Sasidhar Sai Arja
-Data Analytics Graduate Student | Central Michigan University

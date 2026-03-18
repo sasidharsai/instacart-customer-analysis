@@ -1,52 +1,99 @@
-# 🛒 Instacart Customer Behavior Analysis (SQL + Python)
+# 🛒 Instacart Customer Behavior Analysis
 
-## 📌 Project Overview
+## 📊 Overview
 
-This project analyzes customer purchasing behavior using the Instacart dataset. The analysis focuses on identifying product demand, customer ordering patterns, and reorder behavior.
+End-to-end data analytics project analyzing customer purchasing behavior using the Instacart dataset. The project focuses on uncovering product demand patterns, customer ordering trends, and repeat purchase behavior using SQL and Python.
+
+---
+
+## 🎯 Business Objective
+
+To identify key drivers of customer purchasing behavior and provide insights into:
+
+* Product demand trends
+* Customer ordering patterns
+* Reorder behavior and customer loyalty
 
 ---
 
 ## 🧰 Tech Stack
 
-* Python (Pandas, Matplotlib, Seaborn)
-* PostgreSQL (SQL)
-* Jupyter Notebook
+* **SQL (PostgreSQL)** — Data querying & analysis
+* **Python (Pandas)** — Data cleaning & feature engineering
+* **Matplotlib & Seaborn** — Data visualization
+* **Jupyter Notebook** — Analysis workflow
 
 ---
 
-## 🔄 Workflow
+## ⚙️ Workflow
 
-1. Data Cleaning using Pandas
-2. Feature Engineering (basket size, day type)
-3. Data export to CSV
-4. SQL analysis using PostgreSQL
-5. Data visualization using Matplotlib & Seaborn
+### 1. Data Preparation
 
----
+* Loaded raw CSV datasets
+* Performed data cleaning (removed irrelevant columns, duplicates)
+* Validated dataset structure
 
-## 📊 Key Analysis
+### 2. Feature Engineering
 
-* Top 10 most ordered products
-* Top departments by orders
-* Orders by hour of day
-* Weekend vs weekday comparison
-* Reorder rate by department
+* **Basket Size** → Number of items per order
+* **Day Type** → Weekday vs Weekend classification
 
----
+### 3. Database Integration
 
-## 📈 Insights
+* Imported cleaned data into PostgreSQL
+* Designed relational schema
 
-* Fresh produce dominates customer purchases
-* Peak ordering occurs during daytime hours
-* Customer behavior varies across weekdays and weekends
-* High reorder rates indicate strong customer loyalty
+### 4. SQL Analysis
 
----
+* Data overview queries
+* KPI calculations (basket size, reorder rate, etc.)
+* Behavioral analysis
 
-## 📂 Files
+### 5. Visualization
 
-* `instacart_analysis.sql` → SQL queries
-* `instacart_analysis.ipynb` → Full analysis and visualizations
+* Product demand analysis
+* Department performance
+* Order timing trends
+* Customer behavior comparison
 
 ---
 
+## 📈 Key Insights
+
+* High demand observed in fresh produce and essential grocery items
+* Customer activity peaks during daytime hours
+* Distinct behavioral patterns between weekdays and weekends
+* Certain departments show significantly higher reorder rates, indicating strong customer retention
+
+---
+
+## 📊 Key Visualizations
+
+* Top 10 Most Ordered Products
+* Top Departments by Orders
+* Orders by Hour of Day
+* Weekend vs Weekday Analysis
+* Reorder Rate by Department
+
+---
+
+## 📂 Project Structure
+
+```
+instacart-customer-analysis/
+│
+├── instacart_analysis.ipynb   # Full analysis & visualizations
+├── instacart_analysis.sql     # SQL queries
+├── README.md
+```
+
+---
+
+## 🚀 Highlights
+
+* End-to-end data analysis pipeline
+* Combination of SQL + Python workflow
+* Business-focused insights
+* Clean and structured project design
+
+---
